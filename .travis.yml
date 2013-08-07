@@ -16,3 +16,4 @@ gemfile:
   - gemfiles/mongoid_30.gemfile
   - gemfiles/sinatra_13.gemfile
   - gemfiles/sinatra_14.gemfile
+  - gemfiles/sinatra_edge.gemfile

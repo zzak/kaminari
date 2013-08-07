@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'activerecord', '~> 3.2.0', :require => 'active_record'
+gem 'tilt', :git => 'git://github.com/rtomayko/tilt.git'
+gem 'sinatra', :git => 'git://github.com/sinatra/sinatra.git'
+gem 'sinatra-contrib', :git => 'git://github.com/sinatra/sinatra-contrib.git'
+gem 'padrino-helpers', :git => 'git://github.com/padrino/padrino-framework'
+gem 'rack-test', '>= 0'
+gem 'nokogiri'
+gem 'xpath'
+gem 'mime-types'
+
+gemspec :path => '../'
